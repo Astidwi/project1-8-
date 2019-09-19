@@ -1,0 +1,236 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0 ,0.5) , rgba(0, 0, 0, 0.5) ) , url(../img/bck2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family:sans-serif;
+    
+}
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    border-bottom: #ffffff;
+}
+
+.logo{
+    letter-spacing: 1px;
+    float: left;
+    color: #fff;
+    font-size: 22px;
+    line-height: 80px;
+    padding: 0 6em;
+}
+
+.menu{
+    float: right;
+    line-height: 10px;
+    margin: 0em 5em;
+    background: linear-gradient(rgba(0, 0, 0 ,0.3) , rgba(0, 0, 0, 0.3) ) ;
+    position: relative;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu i{
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+
+.menu ul li a:hover{
+    border-bottom: 2px solid;
+}
+
+.header{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%  , -50%);
+    text-align: center;
+    color: #fff;
+    margin-bottom: 50%;
+}
+
+.header p{
+    color: rgb(247, 247, 247);
+    font-size: 24px;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+.header h1{
+    font-size: 50px;
+    margin-bottom: 0px;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+.header button{
+    color: #ffffff;
+    font-size: 15px;
+    background: transparent;
+    border-radius: 10px;
+    padding: 5px 32px;
+    border: none;
+    margin-top: 0;
+}
+
+.header button:hover{
+   background-color: #ffffff;
+   transition: 0.3s;
+   border: 2px solid rgb(204, 187, 187);
+   color: #000000;
+}
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0; /*jarak*/
+    margin-left: 20px;
+    background-image: url(.../img/bck2.jpg);
+}
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145%; /*jarak atas dan bawah antar kalimat paragraf*/
+    text-align: center; /*text menjadi rata kanan dan kiri*/
+}
+.box{
+    padding: 1%;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+    text-align: justify;
+}
+.p1{
+    text-align: center;
+    text-align: justify;
+
+}
+
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: #E67E22;
+    margin-bottom: 10px;
+} 
+
+.long-copy{
+    width: 70%;
+    margin: 0 auto;
+    line-height: 145px; /*jarak atas dan bawah antar kalimat paragraf*/
+    text-align: justify;
+}
+
+.box{
+    padding: 1%;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.section-type{
+    color: rgb(255, 0, 0);
+    background-color: linear-gradient(rg );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+.type {
+    margin-bottom:5px;
+}
+
+.tawarkan{
+    text-align: center;
+    font-size: 170%;
+}
+.icon-small{
+    display:inline-block;
+    width:30px;
+    text-align:center;
+    color: #e67e22;
+    font-size:120%;
+    margin-right:10px;
+
+    /*Membuat text ladi center dan mengubah warna icon*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top:-5px;
+}
+
+.section-type img{
+    width: 100%;
+}
+
+a,
+a:active{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: 0.2s;
+}
+    
+
+a:hover,
+a:active{
+    color:#555;
+    border-bottom: 1px solid transparent;
+}
+
+.section-lokasi{
+    line-height: 145%; 
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0 ,0.5) , rgba(0, 0, 0, 0.5) ) , url(../img/bck3.jpg);   
+}
+
+.section-lokasi img{
+    width: 560px;
+    height: 280px;
+}
+
+.lkstext{
+    color: #ffffff;
+    font-size: 20px;
+    border: 2px solid;
+}
